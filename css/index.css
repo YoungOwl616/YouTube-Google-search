@@ -1,0 +1,103 @@
+body {
+    font-family: 'Sofia Sans', sans-serif;
+    margin: 0px;
+}
+
+img {
+    width: 70px;
+}
+
+#logo-container-div {
+    width: 700px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#user-input {
+    display: block;
+    width: 500px;
+    margin: 30px auto 0px auto;
+    line-height: 30px;
+    border: 1px solid rgb(159, 159, 159);
+    border-radius: 30px;
+    padding: 8px 25px;
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 20px;
+}
+
+#btn-container-div {
+    width: 500px;
+    margin: 40px auto 0px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.srch-btns {
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 24px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: 7px 12px;
+}
+
+#youtube-srch-btn {
+    background-color: rgb(255, 112, 112);
+}
+
+#google-srch-btn {
+    background-color: rgb(93, 93, 255);
+}
+
+#youtube-srch-btn:hover {
+    background-color: rgb(190, 190, 190);
+    color:rgb(255, 112, 112)
+}
+
+#google-srch-btn:hover {
+    background-color: rgb(190, 190, 190);
+    color: rgb(93, 93, 255);
+}
+
+#h3-btn-container {
+    width: 300px;
+    margin: 25px auto 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+#history-btn {
+    margin-left: 20px;
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(159, 159, 159);
+    color: white;
+    padding: 7px 12px;
+}
+
+#history-btn:hover {
+    background-color: rgb(109, 109, 109);
+}
+
+#ul-el {
+    border: 1px solid rgb(159, 159, 159);
+    width: 600px;
+    margin: 15px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+}

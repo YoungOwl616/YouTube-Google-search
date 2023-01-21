@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@600&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+
+        <div id="logo-container-div">
+            <a href="https://www.youtube.com/" target="_blank"><img id="youtube-logo-img" src="images/Youtube_logo.png" alt=""></a>
+            <h1 id="logo-h1">YouTube/Google Search</h1>
+            <a href="https://www.google.com/" target="_blank"><img id="google-logo-img" src="images/google-logo.png" alt=""></a>
+        </div>
+
+        <input id="user-input" type="text" placeholder="type something...">
+
+        <div id="btn-container-div">
+            <button class="srch-btns" id="youtube-srch-btn" onclick="pushToLocalStorage()">Search YouTube</button>
+            <button class="srch-btns" id="google-srch-btn" onclick="pushToLocalStorage()">Search Google</button>
+        </div>
+
+        <div id="h3-btn-container">
+            <h3>History</h3>
+            <button id="history-btn" onclick="clearHistory()">Clear History</button>
+        </div>
+        <ul id="ul-el"></ul>
+
+        <script src="index.js"></script>
+    </body>
+</html>
